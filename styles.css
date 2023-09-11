@@ -56,6 +56,10 @@ button {
   border: none;
 }
 
+button:hover {
+  background-color: #2e6bcd;
+}
+
 /* ====== */
 /* header */
 /* ====== */
@@ -67,6 +71,10 @@ button {
 .header a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.header a:hover {
+  color: #afafad;
 }
 
 .header {
@@ -229,6 +237,10 @@ button {
 .call-to-act-btn {
   padding: 8px 32px;
   border: 2px solid #f9faf8;
+}
+
+.call-to-act-btn:hover {
+  border-color: #afafad;
 }
 
 /* ====== */
