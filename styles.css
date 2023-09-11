@@ -8,21 +8,27 @@ body {
   box-sizing: border-box;
 }
 
-/* header */
-.header-container {
+/* common */
+.header-container,
+.hero-container {
   background-color: #1f2937;
   padding: 16px;
 }
 
-.header {
+.header,
+.hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   gap: 16px;
+}
+
+/* header */
+.header {
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header a {
@@ -61,20 +67,9 @@ body {
 }
 
 /* hero */
-.hero-container {
-  background-color: #1f2937;
-  padding: 16px;
-}
-
 .hero {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 50px 0;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 16px;
   flex-wrap: wrap-reverse;
 }
 
