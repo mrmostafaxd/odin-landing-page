@@ -45,6 +45,17 @@ body {
   gap: 16px;
 }
 
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
 /* ====== */
 /* header */
 /* ====== */
@@ -110,17 +121,6 @@ body {
 
 .hero-text {
   margin: 0 0 16px;
-}
-
-.hero-btn {
-  background-color: #3882f6;
-  padding: 10px 32px;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .hero-img img {
@@ -195,11 +195,6 @@ body {
 /* ============== */
 /* call to action */
 /* ============== */
-.call-to-act-title,
-.call-to-act-text {
-  margin: 0;
-}
-
 .call-to-act-body {
   padding: 70px 0;
 }
@@ -229,17 +224,11 @@ body {
 
 .call-to-act-text {
   margin: 0;
-  color: #e5e7eb;
 }
 
 .call-to-act-btn {
-  background-color: #3882f6;
   padding: 8px 32px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #f9faf8;
   border: 2px solid #f9faf8;
-  border-radius: 5px;
 }
 
 /* ====== */
