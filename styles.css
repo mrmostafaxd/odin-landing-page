@@ -11,7 +11,8 @@ body {
 /* common */
 .header-container,
 .hero-container,
-.info-container {
+.info-container,
+.quote-container {
   padding: 0 16px;
 }
 
@@ -22,7 +23,8 @@ body {
 
 .header,
 .hero,
-.info-content {
+.info-content,
+.quote-content {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -152,4 +154,28 @@ body {
   font-size: 18px;
   color: #292929;
   align-items: stretch;
+}
+
+/* quote */
+.quote-container {
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  padding: 50px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0 0 8px;
+}
+
+.quote-source {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
 }
