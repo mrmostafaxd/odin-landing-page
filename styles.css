@@ -209,17 +209,18 @@ body {
 .call-to-act {
   background-color: #3882f6;
   width: 100%;
-  padding: 36px 0;
+  padding: 36px 16px;
   border-radius: 8px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
 .call-to-act-content {
   flex-grow: 1;
-  max-width: 50%;
+  max-width: 500px;
 }
 
 .call-to-act-title {
