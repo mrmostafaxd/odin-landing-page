@@ -11,12 +11,14 @@ body {
 /* header */
 .header-container {
   background-color: #1f2937;
+  padding: 16px;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -55,4 +57,56 @@ body {
   font-size: 18px;
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* hero */
+.hero-container {
+  background-color: #1f2937;
+  padding: 16px;
+}
+
+.hero {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap-reverse;
+}
+
+.hero-content {
+  flex-basis: 500px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0 0 10px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0 0 16px;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  padding: 10px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 300px;
 }
