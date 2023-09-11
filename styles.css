@@ -75,6 +75,7 @@ body {
 
 .hero-content {
   flex-basis: 500px;
+  margin-right: auto;
 }
 
 .hero-title {
